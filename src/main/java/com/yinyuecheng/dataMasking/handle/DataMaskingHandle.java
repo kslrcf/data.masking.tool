@@ -75,7 +75,7 @@ public class DataMaskingHandle {
         this.redisTools = redisTools;
     }
 
-    @Pointcut("@annotation(com.zhaogang.dataMasking.annotation.DataMasking)")
+    @Pointcut("@annotation(com.yinyuecheng.dataMasking.annotation.DataMasking)")
     public void DataMaskingAroundPointCut(){}
 
     @Around("DataMaskingAroundPointCut()")
