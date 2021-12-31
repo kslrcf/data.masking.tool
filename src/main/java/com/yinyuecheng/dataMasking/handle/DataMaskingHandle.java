@@ -33,6 +33,14 @@ public class DataMaskingHandle {
 
     private String separate = "$kslrcf$";
 
+    public String getPath() {
+        return path;
+    }
+
+    public void setPath(String path) {
+        this.path = path;
+    }
+
     private String path = "com.yinyuecheng";
 
     public String getSeparate() {
